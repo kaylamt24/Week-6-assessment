@@ -35,7 +35,7 @@ test('Check that clicking on the Draw butto displays the div with id ="choices',
 
 
 
-//something like this....
+//something like this.......
 
 // const addMovie = async (driver) => {
 //     await driver.findElement(By.xpath(`//input`)).sendKeys('One Tree Hill')
