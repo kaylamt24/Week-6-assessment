@@ -29,6 +29,15 @@ test('Check that clicking on the Draw butto displays the div with id ="choices',
 
 })
 
+test('click see all button displays div with id of all-bots', async () => {
+    await driver.findElement(By.id('see-all')).click()
+    const allBots = await driver.findElement(By.id('all-bots'))
+    const displayed = await allBots.isDisplayed()
+    expect(displayed).toBeTruthy
+
+    await driver.sleep(2000)
+})
+
 
 
 
